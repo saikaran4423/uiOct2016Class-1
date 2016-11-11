@@ -1,4 +1,4 @@
-1. get the latest code and inside 10_12_2016 folder create a new file with your name.
+. get the latest code and inside 10_12_2016 folder create a new file with your name.
 2. make sure that head has all six elements and a description and some keywords.
 * dont write any styles or scripts. just mention them and focus on meta data
 
