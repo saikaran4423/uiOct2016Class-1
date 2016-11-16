@@ -1,0 +1,110 @@
+<!--main document of the web page-->
+<!DOCTYPE HTML>
+
+    <!--default html language is english-->
+    <html lang="en">
+
+    <!--head of the page-->
+    <head>
+        <!--title=this refers to the title of the html file-->
+        <title>Employee form</title>
+        <!--style=this is used in css style of thehtml file-->
+        <style>
+            body{
+
+            }
+        </style>
+        <!--this is external style-->
+        <link href="../styles/karan.css" rel="stylesheet"/>
+        <!--script=it is used to write java script on the html file-->
+        <script>
+
+        </script>
+        <!--link= this is used to link the external files intp the html file-->
+        <!--link can be done on only for css styles and images-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+        <!--base - this used to specify the base URL of our web page-->
+        <!--this is optional and to be written based on server configuration-->
+        <base href="/home" />
+        <!--meta - this is used to describe more mata information which are not covered by the above five-->
+        <meta name="description" content="This is the official website employee form of our company"/>
+        <meta name="keywords" content="form,firstname,lastname,email id,address" />
+        <meta charset="UTF-8"/>
+        </head>
+    <body>
+    <article>
+
+    <!--page header-->
+    <header>
+        <h1>EMPLOYMENT FORM</h1>
+    </header>
+
+    <!--main body of the page-->
+    <section>
+        <!--form for employment form-->
+        <form name="employment Form">
+
+        <!--First Name-->
+        <div >
+            <label for="firstName">Applicant's First Name:</label>
+            <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+        </div>
+        <!--Last Name-->
+        <div>
+            <label for="lastName">Applicant's Last Name:</label>
+            <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
+        </div>
+        <!--email address-->
+        <div>
+            <label for="@example.com">Email address:</label>
+            <input type="text" id="@example.com" name="eaddress" placeholder="@example.com ">
+        </div>
+
+        <!--password-->
+        <div>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </div>
+
+        <!--Phone Number-->
+        <div>
+            <label for="phoneNumber">Applicant's Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+        </div>
+        <!--gender-->
+        <div>
+            <label for="gender">Applicant's Gender:</label>
+            <div id="gender">
+                <!--male-->
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="Male"/>
+
+        <!--female-->
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="Female"/>
+        </div>
+        </div>
+        <!--work experience-->
+        <div>
+            <label for="workexperience" >work experience?</label>
+            <input type="checkbox" id="workexperience" name="workexperience" />
+        </div>
+        <!--submit button-->
+        <button type="submit" id="submit">
+    <span>Submit</span>
+    </button>
+    <!--cancel button-->
+    <button type="cancel" id="cancel">
+        <span>Cancel</span>
+    </button>
+    </form>
+    </section>
+
+    <!--footer of the page-->
+    <footer>
+        Thank you
+    </footer>
+    </article>
+    </body>
+    </html>

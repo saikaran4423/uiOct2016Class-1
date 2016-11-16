@@ -1,0 +1,15 @@
+form{
+    border: 2px solid #000;
+}
+div{
+    display:block;
+}
+.button submit{
+ {background-color: #4CAF50;} /* Green */
+}
+#cancel{
+    color: #ff0000;
+}
+#submit{
+    color: #3a1bda;
+}
